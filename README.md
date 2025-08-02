@@ -2,8 +2,6 @@
 
 **PeerSkill** is a web-based platform where users can offer their skills and learn new ones from others in the community. It's a collaborative ecosystem that encourages knowledge exchange, skill building, and community growth.
 
----
-
 ## 🚀 MVP Features
 
 ### 1. 🧑‍💻 User Authentication (Register/Login)
@@ -21,25 +19,11 @@
 - **Why**: Establishes connections between users with complementary needs (learn/teach).
 - **Status Flow**: Sent → Accepted/Rejected → Complete
 
-### 4. 💬 Communication System (Chat)
-- **What**: Enables users to chat after their skill request is accepted.
-- **Why**: Facilitates scheduling, clarifying learning goals, and peer interaction.
-- **Optional Tech**: WebSocket (Socket.io) or basic message threads via REST API.
-
-### 5. ⭐ Ratings and Reviews (Optional for MVP)
-- **What**: Learners can leave feedback and a rating after completing a skill session.
-- **Why**: Builds trust, helps future learners choose skilled and helpful users.
-- **Fields**: Rating (1–5), comment, reviewer ID, skill ID.
-
----
-
 ## 🧱 Technology Stack
 
 - **Frontend**: React.js + Tailwind CSS
 - **Backend**: Express.js + Node.js
 - **Database**: MongoDB (Mongoose ODM)
-
----
 
 ## 📌 Future Enhancements (Post-MVP)
 
@@ -49,5 +33,5 @@
 - Skill certification badges
 - Admin panel for content/report management
 
-## Database Schema: https://app.eraser.io/workspace/sFO17th232pva6yFmAaR?origin=share
----
+## Database Schema: 
+- https://app.eraser.io/workspace/sFO17th232pva6yFmAaR?origin=share
